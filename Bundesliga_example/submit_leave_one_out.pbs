@@ -1,0 +1,18 @@
+#!/bin/bash 
+
+#PBS -P <PROJECT_NAME>
+#PBS -l walltime=00:29:59
+#PBS -N Leave_one_out
+#PBS -l mem=32GB                   
+#PBS -l ncpus=24
+#PBS -q normal                     
+
+cd $PBS_O_WORKDIR                                          
+source ~/.bashrc 
+
+for value in {0..53}
+do
+    python3 make_leave_one_out_hists.py ${value} &
+done
+
+wait
