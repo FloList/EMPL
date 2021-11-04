@@ -38,7 +38,7 @@ For any queries, please contact me at florian dot list at sydney dot edu dot au.
 
 <b>Astrophysical example</b> (estimating brightness histograms from γ-ray photon-count maps)
 
-The code for the astrophysical example will shortly be added to [this](https://github.com/FloList/GCE_NN) repository.
+The astrophysical example can be found in [this](https://github.com/FloList/GCE_NN) repository.
 <p align="center"><img width="536" height="600" hspace="10" src="https://github.com/FloList/EMPL/blob/master/astrophysics_example.png"><p/>
 
 
