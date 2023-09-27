@@ -1,5 +1,5 @@
 # The Earth Mover's Pinball Loss: <br> Quantiles for Histogram-Valued Regression
-This is the Tensorflow implementation of the paper *The Earth Mover's Pinball Loss: Quantiles for Histogram-Valued Regression* (**ICML 2021**).
+This is the Tensorflow implementation of the paper *The Earth Mover's Pinball Loss: Quantiles for Histogram-Valued Regression* (**ICML 2021**, [http://proceedings.mlr.press/v139/list21a/list21a.pdf]).
 The Earth Mover's Pinball Loss (EMPL) is a loss function for Deep Learning-based histogram regression, which incorporates cross-bin information and yields *distributions* over plausible histograms, expressed in terms of quantiles of the cumulative histogram in each bin. The EMPL compares two (normalised) histograms <a href="#"><img src="https://render.githubusercontent.com/render/math?math=u=(u_j)_{j=1}^N"></a> and <a href="#"><img src="https://render.githubusercontent.com/render/math?math=v=(v_j)_{j=1}^N"></a> as
 
 <p align="center">
